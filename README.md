@@ -11,7 +11,7 @@ Arolu 对冲套利系统的签名安装包发布仓库。安装包、签名和�
 ## 安装命令
 
 ```bash
-curl -fsSL https://github.com/Delukang/arolu-go-release/releases/download/packages/install.sh | sudo sh
+curl -fsSL https://arolu.xyz/install.sh | sudo sh
 ```
 
 安装脚本会先核对安装包的签名和摘要，再准备数据库、申请 HTTPS 证书并启动服务。首次登录资料和恢复码只在终端中显示；之后也可以运行 `sudo /usr/libexec/arolu-maintenance show-login` 查看。
